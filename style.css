@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body{
   background-color: rgb(230, 252, 252);
+  margin: 0px;
+  color: #40514E;
+ margin: 0;
+ font-family: 'Merriweather', serif;
 }
 #intro{
 
@@ -10,7 +14,7 @@ background-repeat: no-repeat;
 background-size: cover;
 height:600px;
     color: #1f456e;
-    margin-bottom: 200px;
+    margin-bottom: 0px;
 }
 
 h1{
@@ -20,7 +24,8 @@ h1{
 }
 .info{
   width: 40%;
-   margin: 40px auto 60px;;
+   margin: 40px auto 60px;
+   margin-bottom: 0px;
 }
 h2{
   color: #66BFBF;
@@ -30,13 +35,6 @@ h2{
     padding-bottom: 10px;
       margin-bottom: 50px;
 }
-body{
-  margin: 0px;
-  color: #40514E;
- margin: 0;
- font-family: 'Merriweather', serif;
-}
-
 #Meet{
 height: 250px;
 border-radius:50%;
@@ -71,11 +69,23 @@ font-size: 60px;
 color: #016064;
 }
 .design{
-  position: sticky;
+  position: absolute; bottom: 340px; left: 410px;
 color: #82eefd;
 }
-.btn{
-
+.navigate{
+background-color: #23395d;
+height:70px;
+margin-top: 0px;
+margin-bottom: 50px;
+color: #77effc;
+position: sticky;
+top:0.25rem;
+text-decoration: none;
+text-align:center;
+font-family: cursive;
+font-size: 1.75rem;
+font-weight: normal;
+padding-top: 20px;
 }
 footer{
   padding-top: 20px;
