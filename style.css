@@ -69,7 +69,7 @@ font-size: 60px;
 color: #016064;
 }
 .design{
-  position: absolute; bottom: 340px; left: 410px;
+  position: relative; bottom: 250px; left: 10px;
 color: #82eefd;
 }
 .navigate{
